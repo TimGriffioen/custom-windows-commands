@@ -13,7 +13,7 @@ set /a help=0
 if [%1%]==[--help] set /a help=1
 if [%1%]==[-h] set /a help=1
 if %help%==1 (
-  echo SHORT_SCRIPT_DESCRIPTION
+  echo command_name: SHORT_SCRIPT_DESCRIPTION
   exit /B 0
 )
 ```
